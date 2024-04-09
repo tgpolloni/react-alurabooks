@@ -7,18 +7,18 @@ const LogoContainer = styled.div`
 `
 
 const LogoImage = styled.img`
-    margin-right: 10px; 
+    margin-right: 10px;
 `
 
-function Logo () {
-    return(
+function Logo() {
+    return (
         <LogoContainer>
-            <LogoImage 
-                src={logo} 
-                alt='logo'
+            <LogoImage
+                src={logo}
+                alt='logo' 
             />
             <p><strong>Alura</strong>Books</p>
-        </LogoContainer>
+       </LogoContainer>
     )
 }
 
